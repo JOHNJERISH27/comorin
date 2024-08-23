@@ -25,17 +25,15 @@ console.log(a)
 
 Write a program that calculates the sum of the first N natural numbers. The value of N should be input by the user.
 
+let a = [1, 2, 3, 4, 5];
+let b = 0;
 
-
-let a=[1,2,3,4,5]
-let b=0
-
-for(i=0;i<a.length;i++){
-  
-  if(a[i]>0){
-  a[i]+b
-  }}
-console.log(b)
+for (let i = 0; i < a.length; i++) {
+    if (a[i] > 0) {
+        b += a[i]; 
+    }
+}
+console.log(b);
 
 
 Create a program that calculates the factorial of a number provided by the user.

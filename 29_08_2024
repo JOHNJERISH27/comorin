@@ -24,6 +24,7 @@ if(a[i]>b){
   b=a[i]
 }
 
+
 console.log(b +" is the greatest number")
 
 
